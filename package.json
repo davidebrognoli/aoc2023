@@ -1,0 +1,30 @@
+{
+  "name": "aoc2023",
+  "version": "1.0.0",
+  "description": "Advent of Code 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:day": "jest ./day$npm_config_day",
+    "generate:day": "node generateDay.js",
+    "run:day": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidebrognoli/aoc2023.git"
+  },
+  "keywords": [
+    "aoc",
+    "aoc2023",
+    "js"
+  ],
+  "author": "Davide Brognoli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidebrognoli/aoc2023/issues"
+  },
+  "homepage": "https://github.com/davidebrognoli/aoc2023#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
