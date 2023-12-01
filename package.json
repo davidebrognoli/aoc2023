@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:day": "jest ./day$npm_config_day",
     "generate:day": "node generateDay.js",
     "run:day": "node index.js"
   },
